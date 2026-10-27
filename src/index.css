@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sacramento&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Beyond Impact — Brand Design System
+   All colors are HSL. Edit tokens here to re-theme the entire site.
+*/
+
+@layer base {
+  :root {
+    /* Brand palette — per Beyond UI Style Guide (Sea / Earth / Heart) */
+    --navy: 205 100% 19%;          /* Sea  #003F61 */
+    --navy-deep: 205 100% 12%;
+    --green: 133 36% 54%;          /* Earth #5DB77A */
+    --green-soft: 133 35% 88%;
+    --coral: 9 78% 69%;            /* Heart #F08372 — accent on navy for contrast */
+    --clay: 36 27% 95%;            /* #F5F2ED */
+    --clay-warm: 36 30% 92%;
+
+    /* Semantic mapping (light/clay theme) */
+    --background: 36 27% 95%;
+    --foreground: 205 100% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 205 100% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 205 100% 14%;
+
+    --primary: 205 100% 14%;
+    --primary-foreground: 36 27% 97%;
+
+    --secondary: 125 36% 53%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 36 20% 90%;
+    --muted-foreground: 205 25% 35%;
+
+    --accent: 9 73% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 205 20% 86%;
+    --input: 205 20% 86%;
+    --ring: 125 36% 53%;
+
+    --radius: 0.25rem;
+
+    /* Gradients & shadows */
+    --gradient-navy: linear-gradient(135deg, hsl(205 100% 14%) 0%, hsl(207 100% 9%) 100%);
+    --gradient-impact: linear-gradient(135deg, hsl(205 100% 14%) 0%, hsl(125 36% 33%) 100%);
+    --gradient-coral: linear-gradient(135deg, hsl(9 73% 64%) 0%, hsl(9 73% 54%) 100%);
+    --shadow-soft: 0 4px 24px -8px hsl(205 100% 14% / 0.12);
+    --shadow-elevated: 0 24px 60px -20px hsl(205 100% 14% / 0.25);
+    --shadow-coral: 0 16px 40px -16px hsl(9 73% 64% / 0.45);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+  }
+  ::selection { background: hsl(var(--green) / 0.4); color: hsl(var(--navy)); }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-[1320px] px-6 md:px-10; }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.22em];
+    font-family: 'Roboto', sans-serif;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-current opacity-60;
+  }
+  .display {
+    font-family: 'Roboto', sans-serif;
+    @apply font-light tracking-[-0.02em] leading-[1.02];
+  }
+  .script {
+    font-family: 'Sacramento', cursive;
+    @apply font-normal;
+  }
+  .body-serif { font-family: 'Trebuchet MS', sans-serif; }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-[var(--shadow-elevated)];
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border border-current/20 px-6 py-3 text-sm font-medium transition-colors hover:bg-current/5;
+  }
+
+  .grain::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(hsl(var(--foreground) / 0.04) 1px, transparent 1px);
+    background-size: 4px 4px;
+    pointer-events: none;
+  }
+}
