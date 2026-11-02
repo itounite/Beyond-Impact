@@ -68,8 +68,6 @@ const Navbar = ({ variant = "light" }: NavbarProps) => {
           <div className="ml-3 flex items-center gap-2">
             <a
               href={site.investors.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className={`inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-xs xl:text-sm font-medium transition-all ${
                 isDark
                   ? "border-clay/40 text-clay hover:bg-clay hover:text-navy"
@@ -114,8 +112,6 @@ const Navbar = ({ variant = "light" }: NavbarProps) => {
             <div className="mt-3 flex flex-col gap-2 pt-3 border-t border-navy/10">
               <a
                 href={site.investors.href}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="rounded-full border border-navy bg-navy px-5 py-3 text-center text-sm font-medium text-clay transition-all hover:bg-navy/90"
               >

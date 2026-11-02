@@ -49,7 +49,7 @@ export const site = {
   investors: {
     label: "Register your interest",
     intro: "Investors interested in Beyond Impact and its products can register interest here.",
-    href: "https://share.hsforms.com/1sLQdL_wxSiSpkrZHLNMJAwbovuv",
+    href: "mailto:invest@beyondimpact.vc",
     display: "Register your interest",
   },
 };
