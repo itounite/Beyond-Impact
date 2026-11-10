@@ -4,6 +4,8 @@
 
 User-agent: *
 Allow: /
+Disallow: /media
+Disallow: /media/
 
 # Traditional search
 User-agent: Googlebot

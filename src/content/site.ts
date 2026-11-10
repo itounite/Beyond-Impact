@@ -33,7 +33,6 @@ export const site = {
     { label: "Advisory", href: "/advisory" },
     { label: "Portfolio", href: "/portfolio" },
     { label: "Insights", href: "/insights" },
-    { label: "Media", href: "/media" },
   ],
   social: [
     { label: "Twitter", href: "https://twitter.com/BeyondInvest" },
