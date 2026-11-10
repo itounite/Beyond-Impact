@@ -83,7 +83,7 @@ const Funds = () => {
             </div>
           </motion.a>
 
-          {/* BLUE ECONOMY */}
+          {/* BLUE ECONOMY / BLUE FRONTIER FINANCE */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -91,23 +91,32 @@ const Funds = () => {
             transition={{ duration: 0.6 }}
             className="mt-6"
           >
-            <Link
-              to="/blue-economy"
-              className="group grid gap-6 bg-green p-8 text-clay shadow-soft hover:shadow-elevated transition-shadow md:grid-cols-12 md:items-center md:p-12"
-            >
-              <div className="md:col-span-3">
+            <div className="grid gap-6 bg-green p-8 text-clay shadow-soft hover:shadow-elevated transition-shadow md:grid-cols-12 md:items-center md:p-12">
+              <div className="md:col-span-4">
                 <div className="text-[11px] uppercase tracking-wider text-clay/80">New initiative</div>
-                <div className="display mt-2 text-3xl text-clay md:text-4xl">Blue Economy</div>
+                <div className="display mt-2 text-3xl text-clay md:text-4xl">Blue Frontier Finance</div>
+                <div className="mt-1 text-sm font-medium text-clay/80">Blue Economy Platform</div>
               </div>
-              <p className="text-clay/90 leading-relaxed md:col-span-7">
+              <p className="text-clay/90 leading-relaxed md:col-span-5">
                 Strategic partnership with UMITO Partners to accelerate ocean innovation across Europe, Japan and Asia-Pacific — building toward the Blue Frontier Fund.
               </p>
-              <div className="md:col-span-2 md:text-right">
-                <span className="inline-flex items-center gap-2 rounded-full border border-clay/40 px-5 py-3 text-sm font-medium text-clay transition-colors group-hover:bg-coral group-hover:border-coral">
-                  Read more <ArrowUpRight className="h-4 w-4" />
-                </span>
+              <div className="flex flex-wrap items-center gap-3 md:col-span-3 md:justify-end">
+                <a
+                  href="http://bluefrontier.eu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-coral px-5 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-coral/90"
+                >
+                  Blue Frontier Finance <ArrowUpRight className="h-4 w-4" />
+                </a>
+                <Link
+                  to="/blue-economy"
+                  className="inline-flex items-center gap-2 rounded-full border border-clay/40 px-5 py-3 text-sm font-medium text-clay transition-colors hover:bg-clay/10"
+                >
+                  Overview
+                </Link>
               </div>
-            </Link>
+            </div>
           </motion.div>
         </div>
       </section>

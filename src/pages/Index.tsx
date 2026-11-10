@@ -225,6 +225,8 @@ const Index = () => {
             <p className="mt-8 max-w-2xl text-lg text-clay/80">{home.partnership.body}</p>
             <a
               href={home.partnership.cta.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-10 inline-flex items-center gap-3 rounded-full bg-coral px-8 py-4 text-base font-medium text-clay shadow-coral transition-all hover:bg-coral/90"
             >
               {home.partnership.cta.label}

@@ -25,6 +25,7 @@ export const site = {
   brand: "Beyond Impact",
   tagline: "Accelerating the transition to a kinder, cleaner, healthier world.",
   contactEmail: "invest@beyondimpact.vc",
+  contactFormHref: "https://share.hsforms.com/1giQVBnB6QTmZpKzv21rVAAbovuv",
   founded: 2017,
   navLinks: [
     { label: "About", href: "/about" },
@@ -48,7 +49,7 @@ export const site = {
   investors: {
     label: "Register your interest",
     intro: "Investors interested in Beyond Impact and its products can register interest here.",
-    href: "mailto:invest@beyondimpact.vc",
+    href: "https://share.hsforms.com/1giQVBnB6QTmZpKzv21rVAAbovuv",
     display: "Register your interest",
   },
 };
@@ -91,7 +92,7 @@ export const home = {
   partnership: {
     title: "Partner with the platform built for the next decade of impact.",
     body: "We advise, design and launch flagship funds — and co-build specialised vehicles with aligned strategic partners.",
-    cta: { label: "Email invest@beyondimpact.vc", href: "mailto:invest@beyondimpact.vc" },
+    cta: { label: "Get in touch", href: "https://share.hsforms.com/1giQVBnB6QTmZpKzv21rVAAbovuv" },
   },
 };
 
@@ -337,8 +338,8 @@ export const advisory = {
   cta: {
     title: "Build a vehicle with us.",
     body: "If your organisation is exploring impact capital deployment in the transition economy, we'd welcome a conversation.",
-    label: "Email invest@beyondimpact.vc",
-    href: "mailto:invest@beyondimpact.vc",
+    label: "Get in touch",
+    href: "https://share.hsforms.com/1giQVBnB6QTmZpKzv21rVAAbovuv",
   },
 };
 

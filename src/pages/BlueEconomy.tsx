@@ -28,15 +28,26 @@ const BlueEconomy = () => {
 
       <section className="bg-clay py-20 md:py-28">
         <div className="container-x max-w-4xl">
-          <a
-            href={blueEconomy.hero.sourceHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm uppercase tracking-wider text-green hover:text-coral transition-colors"
-          >
-            {blueEconomy.hero.sourceLabel}
-            <ArrowUpRight className="h-4 w-4" />
-          </a>
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="http://bluefrontier.eu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-coral px-4 py-2 text-xs uppercase tracking-wider font-medium text-white hover:bg-coral/90 transition-colors shadow-sm"
+            >
+              Blue Frontier Finance (bluefrontier.eu)
+              <ArrowUpRight className="h-3.5 w-3.5" />
+            </a>
+            <a
+              href={blueEconomy.hero.sourceHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-green hover:text-coral transition-colors"
+            >
+              {blueEconomy.hero.sourceLabel}
+              <ArrowUpRight className="h-3.5 w-3.5" />
+            </a>
+          </div>
 
           <div className="mt-10 space-y-6 text-lg text-navy/80 leading-relaxed">
             {blueEconomy.intro.map((p, i) => (

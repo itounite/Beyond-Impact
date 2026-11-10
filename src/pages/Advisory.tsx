@@ -130,6 +130,8 @@ const Advisory = () => {
           <p className="mx-auto mt-6 max-w-xl leading-relaxed text-clay/70">{advisory.cta.body}</p>
           <a
             href={advisory.cta.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 rounded-full bg-coral px-8 py-4 text-sm font-medium text-navy transition-all hover:gap-4"
           >
             {advisory.cta.label}

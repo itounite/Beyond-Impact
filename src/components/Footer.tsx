@@ -29,10 +29,12 @@ const Footer = () => {
               {site.tagline}
             </p>
             <a
-              href={`mailto:${site.contactEmail}`}
+              href={site.contactFormHref}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 inline-flex items-baseline gap-2 font-display text-2xl tracking-tight text-clay hover:text-coral transition-colors"
             >
-              {site.contactEmail}
+              Invest with us
               <ArrowUpRight className="h-5 w-5" />
             </a>
           </div>
