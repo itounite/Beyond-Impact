@@ -4,6 +4,7 @@ import fundraisingWinterBlip from "@/assets/insights/fundraising-winter-blip.png
 import theresaPortrait from "@/assets/insights/theresa-rothenbuecher.png";
 import seaweedFarmPhoto from "@/assets/insights/seaweed-farm-uroa-zanzibar.jpg";
 import facultyBiotechPhoto from "@/assets/insights/faculty-food-engineering-biotechnology.jpg";
+import whatCanABeeFeelPhoto from "@/assets/insights/what-can-a-bee-feel.jpg";
 
 
 
@@ -618,6 +619,68 @@ export const insights: Insight[] = [
       { type: "quote", text: "This fundraising winter is a blip and will clear out a lot of bad apples (both investors and entrepreneurs).", cite: "Claire Smith, CEO, Beyond Impact" },
       { type: "p", text: "\"Observing many 'bad apples' over the years means Smith can easily detail how her ethical and transparent approach differs. \"We are absolutely against animal-derived ingredients and products in the advanced nutrition, human food and pet food landscape, and we go to extreme lengths with our companies to incorporate terms and clauses that they are not conducting animal testing, selling to the animal/fish feed industry, or selling hybrid animal-derived meat combined with alternative meat products. We are the only animal-free Article 9 SFDR fund, which shows how nascent the climate financing space is in recognizing the connection between climate change, the biodiversity crisis, and the economy's current dependence on animal-derived products and ingredients.\"" },
       { type: "p", text: "Originally published in Protein Production Technology International, Q2 2024. Read the full feature: https://hubs.ly/Q02x4h3d0" },
+    ],
+  },
+  {
+    slug: "sentient-sustainability-and-sentiment-case-against-insect-based-protein",
+    title: "Sentient, Sustainability, and Sentiment - Case against Insect-based Protein",
+    author: "Sagar Tandon",
+    date: "April 15, 2023",
+    category: "Alternative Proteins",
+    excerpt:
+      "Why Beyond Impact holds an anti-thesis to insect-based protein — examining insect sentience, energy and emissions sustainability, and consumer sentiment.",
+    body: [
+      { type: "p", text: "Some consider insect-based protein as an advanced nutrition, human food, and pet food source. Still, we at Beyond Impact have an anti-thesis to insect-based solutions, so we don't invest or engage in solutions involving sentient beings." },
+      { type: "p", text: "There are several compelling reasons against insect-based protein altogether." },
+      { type: "h2", text: "Sentient" },
+      { type: "p", text: "First and foremost, insects are sentient creatures capable of experiencing pain and suffering. While it's true that some argue that insects may not have the same level of consciousness as other animals, there is growing evidence that suggests that insects are more sentient than previously thought. For example, research has shown that insects can experience emotions like fear and may even be capable of forming memories." },
+      { type: "quote", text: "Insects are able to produce highly sophisticated behavior—as highlighted by our issue—using fewer neurons than vertebrate brains.", cite: "The Mechanisms of Insect Cognition, Frontiers in Psychology — Lars Chittka, Martin Giurfa, and Jeffrey A. Riffell" },
+      { type: "quote", text: "Insects like social Hymenoptera share these cognitive capabilities with cephalopods, showing cognitive capacities such as numerosity¹, categorization-like processing², attention-like processes³ and other extraordinary abilities including transitive inference⁴, multimodal and individual recognition abilities⁵, cross-modal object recognition⁶, holistic processing⁷, symbolic communication⁸ and causal reasoning⁹.", cite: "Insect sentience and the rise of a new inclusive ethics — David Baracchi and Luigi Baciadonna" },
+      { type: "p", text: "Given this evidence, it's difficult to justify the widespread use of insects as a source of protein. If we believe animals should not be subjected to unnecessary suffering, we must also extend that belief to insects." },
+      {
+        type: "img",
+        src: whatCanABeeFeelPhoto,
+        alt: "Honey bee approaching a yellow and white flower",
+        credit: {
+          name: "What can a Bee feel?",
+          url: "https://www.vox.com/future-perfect/23292501/bees-insects-animals-pain-sentience-consciousness-cognition",
+        },
+      },
+      { type: "p", text: "Additionally, it is crucial to understand how insect protein is made. There may be a perception among people that they \"die off\" and are collected. That is far from being true." },
+      { type: "p", text: "Like animal agriculture, several methods are used to kill insects for insect-based protein production. The specific method used can depend on the type of insect being raised, but some standard methods include the following:" },
+      { type: "ul", items: [
+        "Freezing: Some insects, such as crickets, can be killed by freezing them for a specific time. This method is considered humane and does not involve chemicals or other treatments.",
+        "Boiling: Boiling is another method that can be used to kill insects quickly and efficiently. The insects are submerged in boiling water for a short amount of time before being removed and processed.",
+        "Stun-to-kill: This method involves exposing the insects to low temperatures or a gas that puts them into a state of unconsciousness before they are killed. This method is considered more humane than other methods of killing insects.",
+        "CO2: Some insect farms use carbon dioxide (CO2) to kill insects. The insects are placed in a container filled with CO2, which quickly immobilizes and kills them.",
+      ]},
+      { type: "p", text: "That doesn't sound right. Right? We don't need to cause pain and suffering to insects either. We can thrive on plant-, fermented-, and cell-ag-based proteins." },
+      { type: "h2", text: "Sustainability" },
+      { type: "p", text: "Another argument against insect-based protein is that it is less sustainable than other advanced nutrition, human food, and pet food sources. Several factors make them less sustainable than other options." },
+      { type: "p", text: "For one, insects require a lot of energy to produce. Insects are cold-blooded, so they are less efficient at converting feed into protein than warm-blooded animals. Additionally, the process of harvesting and processing insects requires a significant amount of energy as well." },
+      { type: "p", text: "Furthermore, while insects may require less land and water than other livestock, they still require significant production resources. For example, crickets require a specific diet to ensure they are healthy and nutritious, meaning they must be fed a diet of grains and vegetables. This diet requires significant amounts of land and water to produce, which may not be sustainable in the long term." },
+      { type: "p", text: "For instance, mealworm larvae emit 14kg of CO2 eq to produce a kg of protein. In comparison, per kg of pea protein emits only 4kg of CO2 eq¹⁰, and tofu requires half¹¹ of the agricultural land for insect cultivation." },
+      { type: "h2", text: "Sentiment" },
+      { type: "p", text: "Finally, there is the issue of customer sentiment. While some people may be open to eating insects, others find the idea repulsive. This is not a minor consideration — customer preferences can make or break a new product, and it's unclear whether there is a large enough market for insect-based protein to make it a viable alternative to traditional protein sources." },
+      { type: "p", text: "Only 10.3% of Europeans¹² stated they would be willing to replace meat with insects." },
+      { type: "p", text: "The only real market for insect protein is animal feed, which therefore perpetuates the exploitation of animals already being farmed, which is antithetical to Beyond Impact's mission." },
+      { type: "p", text: "In conclusion, there are several compelling reasons to avoid it altogether. Not only are insects sentient creatures that deserve our respect and consideration, but insect-based protein production may not be as sustainable. Additionally, with solid customer sentiment against insect-based protein, we don't see the future." },
+      { type: "p", text: "We are interested in ingredients and technologies that are superior, scalable, and sustainable that can make advanced nutrition, human food, and pet food feasible, affordable, cleaner, and palatable. If you are a startup building in this space, please apply for funding via https://bit.ly/fundregenerative or get in touch via https://share.hsforms.com/1giQVBnB6QTmZpKzv21rVAAbovuv to learn more about how you can participate in a cleaner, kinder, healthier future." },
+      { type: "h2", text: "References" },
+      { type: "ul", items: [
+        "[1] Howard, S. R., Avarguès-Weber, A., Garcia, J. E., Greentree, A. D., Dyer, A. G. (2018). Numerical ordering of zero in honey bees. Science 360(6393): 1124–1126.",
+        "[2] Avarguès-Weber, A., Dyer, A. G., Giurfa, M. (2011). Conceptualization of above and below relationships by an insect. Proceedings of the Royal Society B: Biological Sciences 278(1707): 898–905.",
+        "[3] Nityananda, V. (2016). Attention-like processes in insects. Proceedings of the Royal Society B: Biological Sciences 283(1842): 20161986.",
+        "[4] Tibbetts, E. A., Agudelo, J., Pandit, S., Riojas, J. (2019). Transitive inference in Polistes paper wasps. Biology Letters 15(5): 20190015.",
+        "[5] Tibbetts, E. A. (2002). Visual signals of individual identity in the wasp Polistes fuscatus. Proceedings of the Royal Society of London, Series B: Biological Sciences 269(1499): 1423–1428.; D'Ettorre, P., Heinze, J. (2005). Individual recognition in ant queens. Current Biology 15(23): 2170–2174.; Baracchi, D., Petrocelli, I., Chittka, L., Ricciardi, G., Turillazzi, S. (2015). Speed and accuracy in nest-mate recognition: A hover wasp prioritizes face recognition over colony odour cues to minimize intrusion by outsiders. Proceedings of the Royal Society B: Biological Sciences 282(1802): 20142750.",
+        "[6] Solvi, C., Al-Khudhairy, S. G., Chittka, L. (2020). Bumble bees display cross-modal object recognition between visual and tactile senses. Science 367(6480): 910–912.",
+        "[7] Avarguès-Weber, A., d'Amaro, D., Metzler, M., Finke, V., Baracchi D., Dyer, A. G. (2018). Does holistic processing require a large brain? Insights from honeybees and wasps in fine visual recognition tasks. Frontiers in Psychology 9: 1313.",
+        "[8] Frisch, K. V. (1946). Die tänze der Bienen. Österreichische Zoologische Zeitschrift 1(1).; Lindauer, M. (1955). Schwarmbienen auf wohnungssuche. Zeitschrift für vergleichende Physiologie 37(4): 263–324.",
+        "[9] Loukola, O. J., Perry, C. J., Coscos, L., Chittka, L. (2017). Bumblebees show cognitive flexibility by improving on an observed complex behavior. Science 355(6327): 833–836.",
+        "[10] Reducing food's environmental impacts through producers and consumers — https://www.science.org/doi/10.1126/science.aaq0216",
+        "[11] Could consumption of insects, cultured meat or imitation meat reduce global agricultural land use? — https://www.sciencedirect.com/science/article/pii/S2211912417300056?via%3Dihub",
+        "[12] One bite at a time: consumers and the transition to sustainable food — https://www.beuc.eu/sites/default/files/publications/beuc-x-2020-042_consumers_and_the_transition_to_sustainable_food.pdf",
+      ]},
     ],
   },
 ];

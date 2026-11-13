@@ -37,3 +37,4 @@ Beyond Impact manages Article 9 SFDR impact-focused funds (including Fund I and 
 - [The Nordic Edge](/insights/the-nordic-edge): Why the Nordics lead on industrial biotech, applied biotech, and green chemistry.
 - [Ingredients for a Sustainable Future](/insights/ingredients-for-a-sustainable-future): Next-generation sustainable ingredients and precision fermentation.
 - [Beyond Energy: Consumption Transition](/insights/beyond-energy-consumption-transition): Decarbonizing industrial consumption through biology.
+- [Sentient, Sustainability, and Sentiment - Case against Insect-based Protein](/insights/sentient-sustainability-and-sentiment-case-against-insect-based-protein): Beyond Impact's anti-thesis to insect-based protein across sentience, emissions sustainability, and consumer sentiment.
